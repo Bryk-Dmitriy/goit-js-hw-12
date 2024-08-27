@@ -29,7 +29,7 @@ async function handleSubmit(event) {
     iziToast.error({
       class: 'custom-error',
       position: 'topRight',
-      message: 'Please fill the input',
+      message: 'Search field cannot be empty!',
     });
     loader.classList.add('hidden');
     return;
